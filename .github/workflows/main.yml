@@ -3,7 +3,7 @@ on:
   push:
     branches:
       # For testing only, remove when done
-      - "ci-cd"
+      - "ci_cd"
       - main
 
 jobs:
