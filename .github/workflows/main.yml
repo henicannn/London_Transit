@@ -1,0 +1,11 @@
+name: Deploy London Transit project
+on:
+  push:
+    branches:
+      # For testing only, remove when done
+      - "ci_cd"
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
