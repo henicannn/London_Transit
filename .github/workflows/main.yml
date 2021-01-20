@@ -25,3 +25,5 @@ jobs:
           with:
             GENERATE_SOURCEMAP: false
             REACT_APP_MAPBOX_API: ${{ secrets.MAPBOX_API }}
+        - name: Build the APP
+          run: npm run build
